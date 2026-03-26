@@ -1,5 +1,67 @@
 /* styles.css */
 
+body {
+	background-color: #007BC2;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+
 * {
 	font-family: Arial;
+}
+
+h1 {
+	color: white; 
+	font-size: 72px; 
+	text-align: center; 
+}
+
+h2 {
+	visibility: visible;
+	color: white; 
+	font-size: 30px; 
+	text-align: center; 
+}
+
+h3 {
+	visibility:visible;
+	color: #007BC2; 
+	font-size: 30px; 
+	text-align: center; 
+}
+
+a {
+	visibility: visible;
+	color: #007BC2; 
+	font-size: 30px; 
+	text-align: center; 
+}
+
+h3 a:hover {
+	visibility: visible;
+	color: white; 
+	font-size: 30px; 
+	text-align: center; 
+}
+
+.backgroundImage {
+	background-image: url(../img/ringDoorbellImage.png); 
+	width: 222px;
+	height: 472px; 
+	margin: 64px auto;
+	background-size: cover;
+	background-position: center;  
+	background-repeat: no-repeat;  
+	background-size: contain;
+}
+
+
+.backgroundImage:hover {
+	background-image: url(../img/ringDoorbellWithEye.png);
+	width: 222px;
+	height: 472px; 
+	margin: 64px auto;
+	background-size: cover;
+	background-position: center;  
+	background-repeat: no-repeat;  
+	background-size: contain;
 }
